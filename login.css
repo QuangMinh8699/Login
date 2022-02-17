@@ -16,9 +16,11 @@ section .noi-dung{
     width: 100%;
     height: 100%;
 }
+
  .noi-dung .form{
     width: 38%;
 }
+
  .noi-dung .form h2{
     color: black;
     font-weight: 500;
@@ -27,17 +29,20 @@ section .noi-dung{
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
+
 .noi-dung .form .input-form{
     margin-bottom: 20px;
 }
- .noi-dung .form .input-form span{
+
+.noi-dung .form .input-form span{
     font-size: 16px;
     margin-bottom: 5px;
     display: inline-block;
     color: black;
     letter-spacing: 1px;
-     }
- .noi-dung .form .input-form input{
+}
+
+.noi-dung .form .input-form input{
     width: 100%;
     padding: 10px 20px;
     outline: none;
@@ -47,7 +52,8 @@ section .noi-dung{
     color: #607d8b;
     background: transparent;
     border-radius: 30px;
-    }
+}
+
  .noi-dung .form .input-form input[type="submit"]{
     background: black;
     color: #fff;

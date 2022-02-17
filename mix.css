@@ -1,7 +1,5 @@
-
-
 body {
-    background-color: var(--nhat_nhat);
+    background-color: rgb(228, 198, 183);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +14,10 @@ h1 {
     margin: 0;
 }
 p {
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 20px;
-    letter-spacing: 0.5px;
+    font-size: 0.1vw;
+    /* font-weight: 0.001vw; */
+    /* line-height: 20px; */
+    /* letter-spacing: 0.5px; */
     margin: 20px 0 30px;
 }
 span {
@@ -32,14 +30,23 @@ a {
     margin: 15px 0;
 }
 button {
-    border-radius: 20px;
-    border: 1px solid;
-    background-color: var(--nude);
+    transition: 0.25s;
+    border-radius: 1.9vw;
+    border: none;
+    color: #fff;
+    background-color: #c56e17;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 45px;
     letter-spacing: 1px;
 }
+
+button:hover {
+    transition: 0.25s;
+    background-color: #9b5713;
+    cursor: pointer;
+}
+
 button:active {
     transform: scale(0.95);
 }
@@ -60,11 +67,19 @@ form {
 }
 
 input {
+    transition: 0.25s;
+    outline: none;
+    border-radius: 1.9vw;
     background-color: #eee;
     border: none;
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
+}
+
+input:focus {
+    transition: 0.25s;
+    border: 0.2vw solid #c56e17;
 }
 
 .container {
@@ -123,7 +138,7 @@ input {
     transform: translateX(-100%);
 }
 .overlay {
-    background: var(--dam_nhat);
+    background: #c56e17;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -162,6 +177,31 @@ input {
     align-items: center;
     margin: 0 5px;
     height: 40px;
+    transition: 0.25s;
     width: 40px;
 }
 
+.social-container a:hover {
+    transition: 0.25s;
+    background-color: #c56e17;
+    color: #fff;
+}
+
+/* CAP NHAT THEM  */
+.overlay-panel-h1 {
+    color: #fff;
+}
+
+.overlay-panel-p {
+    font-size: 1.2vw;
+}
+
+#sign-up {
+    background-color: #fff;
+    color: #000;
+    font-size: 1vw;
+}
+
+#sign-up:hover {
+    background-color: rgb(214, 214, 214);
+}
